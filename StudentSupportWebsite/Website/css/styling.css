@@ -1,0 +1,179 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+
+.navbar.navbar-default {
+    background-color:#0066cb;
+
+}
+
+#logo {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    margin: auto;
+    left:0px;
+
+}
+
+
+body {
+    background-color: #FFFFFF;
+    font: 15px Montserrat, sans-serif;
+    margin-left:10px;
+    margin-right: 10px
+
+}
+
+#main-title {
+
+    font-size:20px;
+    padding-left:30px;
+    position: relative;
+    bottom: 5px;
+    color:white;
+}
+
+#theta {
+   padding-right:100px;
+   margin-left: 50px;
+   font-size:20px;
+   position: relative;
+   color: white
+}
+
+.symbol_para {
+    text-align: center
+}
+
+.glyphicon.glyphicon-log-in {
+    font-size: 15px;
+    color:white;
+}
+
+.login{
+
+    font-size: 20px;
+    color:white;
+    position: relative;
+    margin-right: 20px
+ }
+
+ .EEC_banner {
+     display:block;
+
+ }
+
+ @media (max-width: 1300px)
+{
+    .EEC_banner
+    {
+        display: none;
+    }
+}
+
+.EEC_banner {
+    padding-left:20px;
+
+}
+
+@media (min-width: 1700px)
+{
+    .EEC_banner
+    {
+        padding-left:60px;
+
+        padding-left:65px;
+
+    }
+}
+
+
+
+ #newlogin {
+
+     color:white;
+ }
+
+ #login-signup {
+     text-align: center;
+
+
+ }
+
+.btn.btn-default {
+    background-color:#0066cb;
+    color:white;
+}
+
+.btn.btn-info.btn-lg {
+    background-color:#0066cb;
+    text-align: center;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 50%;
+      margin: auto;
+      width:400px;
+      height:400px;
+}
+
+.left.carousel-control,
+.right.carousel-control{
+
+   margin:auto;
+   height:400px;
+   width:40px;
+}
+
+.carousel.slide {
+    width:500px;
+    margin:auto;
+}
+
+#classLogos {
+    height: 150px;
+    right:200px;
+
+}
+
+.classtitle{
+    text-align: center
+}
+
+.style_main {
+    margin-top: 60px;
+    width: 30%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.glyphicon.glyphicon-calendar {
+    font-size: 50px;
+    margin-left: 45%;
+    margin-right: auto;
+}
+
+.glyphicon.glyphicon-time {
+    font-size: 50px;
+    margin-left: 45%;
+    margin-right: auto;
+}
+
+.glyphicon.glyphicon-facetime-video {
+
+    font-size: 50px;
+    margin-left: 45%;
+    margin-right: auto;
+}
+
+.glyphicon.glyphicon-list-alt {
+    font-size: 50px;
+    margin-left: 45%;
+    margin-right: auto;
+}
+
+a#logout {
+    padding-right:23px;
+}
